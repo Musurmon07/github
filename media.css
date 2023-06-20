@@ -1,0 +1,25 @@
+@media(max-width:992px){
+    .container {
+        width: 992px;
+        position: absolute;
+        top: 650px;
+        left: 15%;
+    }
+  
+    .col {
+        height: 100px !important;
+        text-align: center;
+    }
+    .col p{
+        height: 100%;
+        font-size: 10px;
+    }
+    .col img{
+        width: 50%;
+        height: 150px !important;
+        /* margin: 30px auto; */
+    }
+    .card-img-to{
+        margin:  0 auto;
+    }
+}
