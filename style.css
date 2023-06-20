@@ -10,10 +10,11 @@
 .container-x .section_text {
     height: 100vh;
     width: 100%;
-    background: url(https://e1.pxfuel.com/desktop-wallpaper/250/941/desktop-wallpaper-cozy-coffee-shop-ambience-with-relaxing-jazz-music-rain-sounds-and-crackling-fireplace-cozy-autumn-cafe-window.jpg) rgba(250, 128, 114, 0.481);
+    background: url(https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8TmV1bnxlbnwwfHwwfHw%3D&w=1000&q=80) rgba(250, 128, 114, 0.481);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* position: relative; */
 }
 .section_text .text{
     width: 1000px;
@@ -37,9 +38,47 @@
     margin-top: 20px;
 }
 /*  card */
+.container {
+    position: absolute;
+    top: 660px;
+    left: 18%;
+}
+.row-cols-1{
+    padding: 0;
+}
+.col {
+    height: 300px !important;
+    text-align: center;
+}
 .col img{
-    padding: 30px;
+    margin: 30px auto;
 }
 .card-img-to{
     margin:  0 auto;
+}
+/* -------- card end ----------- */
+.container-xl .row h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 100px 0 !important;
+    margin-top: 50px;
+}
+.card{
+    height: 600px !important;
+    border: none !important;
+    padding: 30px 5px !important;
+}
+.card-body {
+    padding: 120px 40px !important;
+}
+.card-body h3{
+    color: palevioletred !important;
+}
+.card-body button{
+    background-color: palevioletred !important;
+    border: none;
+    border-radius: 25px;
+}
+.d-md-block{
+    margin-top: 30px;
 }
