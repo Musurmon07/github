@@ -37,3 +37,9 @@
     margin-top: 20px;
 }
 /*  card */
+.col img{
+    padding: 30px;
+}
+.card-img-to{
+    margin:  0 auto;
+}
