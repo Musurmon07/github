@@ -1,9 +1,22 @@
 @media(max-width:992px){
     .container {
         width: 992px;
-        position: absolute;
-        top: 650px;
-        left: 15%;
+        padding-top: 30px;
+    }
+    .text{
+        padding-top: 150px ;
+        width: 700px !important;
+    }
+     .text h1, p ,h4{
+        font-size: 20px !important;
+    }
+    .text button {
+        font-size: 18px;
+        padding: 5px 18px !important;
+    }
+    .container .row .card-group .card .card-text{
+        
+        font-size: 15px !important;
     }
   
     .col {
@@ -22,4 +35,99 @@
     .card-img-to{
         margin:  0 auto;
     }
+}
+
+@media(max-width:768px){
+    .container {
+        width: 720px;
+        padding-top: 30px;
+    }
+    .container .card {
+        padding-top:100px ;
+        border: 1px solid black !important;
+        height: 230px !important;
+    }
+    .container .card img{
+        width: 30px;
+        height: 30px;
+    }
+    .text{
+        padding-top: 135px !important;
+        width: 530px !important;
+    }
+    .card-text{
+        font-size: 10px !important;
+    }
+    .text h1, p ,h4{
+        font-size: 20px !important;
+    }
+    .text button {
+        font-size: 12px;
+        padding: 5px 18px !important;
+    } 
+    .container-xl .row .h1{
+        margin: 70px 0 0 0 !important;
+        font-size: 25px;
+        padding: 20px 0 !important;
+     }
+     .container .card-group{
+        padding-top: 150px;
+         height: 300px !important;
+     }
+     .container.card-group .card{
+         height: 350px !important;
+         border: 2px black solid !important ;
+     }
+}
+
+@media(max-width:576px){
+    .container{
+        width: 576px;
+    }
+    .carr{
+        height:  1000px !important;
+        text-align: center;
+        margin: 20px 0;
+        padding: 30px 20px !important;
+    }
+    .card-group{
+        padding: 0 30px !important;
+        height: 430px !important;
+    }
+    .container .card {
+        padding:5px 20px 10px 20px !important ;
+        height: 125px !important;
+        border: 2px black solid !important;
+    }
+    .container .card img{
+        width: 30px;
+        height: 30px;
+    }
+    .text{
+        padding-top: 135px !important;
+        width: 450px !important;
+    }
+    .card-text{
+        font-size: 10px !important;
+    }
+    .text h1, p ,h4{
+        font-size: 15px !important;
+    }
+    .text button {
+        font-size: 12px;
+        padding: 5px 18px !important;
+    } 
+    .container-xl .row .h1{
+       margin: 250px 0 0 0 ;
+       font-size: 18px;
+       padding: 30px 0 !important;
+    }
+     /* .container-xl .img .image{
+         width: 450px !important;
+         height: 250px !important;
+     } */
+     .container-xl .row .card-group .card:nth-child(2){
+         margin-top: 350px;
+         /* padding-bottom: 50px; */
+     }
 }
