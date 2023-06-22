@@ -62,12 +62,15 @@
 .container-xl .row h1 {
     text-align: center;
     font-size: 50px;
-    padding: 100px 0 !important;
+    padding: 150px 0 50px 0 !important;
     /* margin-top: 150px; */
 }
 .card-group{
     height: 250px !important;
     padding-top: 30px;
+}
+.container .card-group .card{
+    border: 1px black solid !important ;
 }
 .card{
     height: 300px !important;
